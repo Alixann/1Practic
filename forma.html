@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/forma.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <div class="wrapper1">
+        <div class="title">Заполните форму и мы вам перезвоним!</div>
+        <a href="./index.html" class="close-btn"></a>
+      </div>
+      <input type="text" placeholder="ФИО" />
+      <input
+        type="text"
+        oninput="this.value = this.value.replace(/[^0-9]/, '')"
+        maxlength="11"
+        placeholder="Телефон"
+      />
+      <input
+        type="text"
+        id="email"
+        name="email"
+        placeholder="Ваш Email"
+        required
+      />
+      <input type="2" placeholder="Причина обращения" />
+      <div class="wrapper">
+        <input type="checkbox" id="agreement" /> Я принимаю условия
+        <u> политики конфиденциальности</u>
+        <div class="send">
+          <a href="#" class="send-btn">Отправить</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,403 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;500&display=swap");
+@media screen and (max-width: 431px) {
+  /* Header */
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    max-width: 100%;
+    height: 88px;
+  }
+  .menu {
+    display: flex;
+  }
+
+  .login {
+    padding: 0;
+  }
+
+  .login-btn {
+    display: none;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav ul li a {
+    padding: 0;
+  }
+
+  .logo1 {
+    max-width: 50px;
+    margin: 0;
+  }
+
+  .logo1 img {
+    margin: 0;
+    max-width: 100%;
+  }
+
+  br {
+    display: none;
+  }
+
+  /* Home-page */
+
+  .home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+  }
+
+  .wrapper-name {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    row-gap: 15px;
+    align-items: center;
+  }
+
+  .name {
+    max-width: fit-content;
+    font-size: 35px;
+    padding: 0;
+  }
+
+  .tagline {
+    max-width: fit-content;
+    font-size: 16px;
+    padding: 0;
+  }
+
+  .login-btn {
+    margin: 0;
+  }
+
+  .signUp {
+    margin: 0;
+    display: flex;
+    column-gap: 15px;
+    margin-top: 10px;
+  }
+
+  .signUp-btn {
+    margin: 0;
+  }
+
+  .container1 {
+    margin: 0;
+    max-width: 230px;
+  }
+
+  .container1 img {
+    max-width: 100%;
+  }
+
+  /* Services */
+
+  .services {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .block-name {
+    text-align: center;
+    font-size: 24px;
+    padding: 25px;
+  }
+
+  .button-services {
+    column-gap: 25px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 25px;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    white-space: nowrap;
+    margin-bottom: 20px;
+  }
+
+  .button-services::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .text {
+    margin: 10px 0 0 0;
+    font-size: 16px;
+  }
+
+  .badge {
+    display: flex;
+    align-items: center;
+    max-width: fit-content;
+    height: 20px;
+    padding: 2px 10px;
+    font-size: 11px;
+    border-radius: 15px;
+  }
+
+  .text2 {
+    margin: 0;
+    font-size: 11px;
+    padding: 0;
+  }
+
+  .button {
+    min-width: 155px;
+    max-height: 180px;
+    margin: 0;
+  }
+
+  /* Adventages */
+
+  .adventages {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .wrapper2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding: 20px;
+
+    align-items: center;
+  }
+
+  .text3 {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    column-gap: 25px;
+    font-size: 15px;
+    margin: 0;
+    margin-bottom: 15px;
+  }
+
+  .text-advantages {
+    font-size: 32px;
+    margin: 0;
+  }
+
+  .benefits {
+    max-width: 340px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .icon {
+    max-width: 26px;
+    max-height: 26px;
+  }
+
+  .icon img {
+    max-width: 100%;
+  }
+
+  .row {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .img-adv {
+    display: none;
+  }
+
+  /* Specialists */
+
+  .name-doctor {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .classification {
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .image {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+  }
+
+  .experience {
+    font-size: 11px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .container2 {
+    padding: 0 25px;
+  }
+
+  .swiper-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 25px 0;
+  }
+
+  .swiper-slide-active {
+    background-color: #dce9fe;
+  }
+
+  .card {
+    max-width: 272px;
+    max-height: 150px;
+    margin: 0;
+    padding: 0 10px;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    row-gap: 15px;
+    align-items: flex-start;
+  }
+
+  /* Contact */
+
+  .contact-form {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px 0 10px;
+  }
+
+  .info {
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  input[type="tel"],
+  .submit-btn {
+    margin: 0;
+    text-align: center;
+    padding-left: 0px;
+  }
+  input[type="tel"],
+  .submit-btn {
+    width: 180px;
+    height: 35px;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .small-text {
+    text-align: center;
+    max-width: 360px;
+    font-size: 14px;
+    margin: 0;
+    font-family: "Overpass", sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+
+  .legal-text {
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+    font-family: "Overpass", sans-serif;
+    font-weight: 400;
+  }
+
+  .submit-btn {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .img-photo {
+    position: relative;
+    max-height: 175px;
+  }
+
+  /* Footer */
+
+  footer {
+    display: flex;
+    padding: 0 25px;
+    min-height: 120px;
+  }
+
+  .container3 {
+    margin: 0;
+    justify-content: space-between;
+    column-gap: 30px;
+    align-items: center;
+  }
+
+  .logo img {
+    max-width: 50px;
+    margin: 0;
+  }
+
+  .menu1,
+  .additional-menu,
+  .social-media {
+    font-size: 11px;
+  }
+
+  .menu1 ul li {
+    margin: 0;
+  }
+
+  .menu1 ul {
+    min-width: 70px;
+    display: flex;
+    row-gap: 10px;
+  }
+
+  .additional-menu ul li {
+    margin: 0;
+  }
+
+  .additional-menu ul {
+    min-width: 90px;
+    display: flex;
+    row-gap: 10px;
+  }
+
+  .social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+  }
+
+  .social-media a {
+    margin: 0;
+  }
+
+  .social-media p {
+    display: none;
+  }
+
+  .social-media img {
+    max-width: 15px;
+  }
+}

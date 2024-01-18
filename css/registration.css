@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "Marmelad";
+  src: url("../fonts/Marmelad-Regular.ttf");
+}
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;500&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #363636;
+  font-family: "Marmelad";
+}
+p {
+  font-size: 16px;
+  color: #707070;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+}
+a social-media {
+  margin-right: 5px;
+}
+.wrapper1 {
+  display: flex;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #cbdfff;
+}
+.registration-container {
+  display: flex;
+  flex-direction: column;
+  width: 890px;
+  height: 480px;
+  background-color: white;
+  padding-top: 30px;
+  border-radius: 20px;
+  align-items: center;
+  position: relative;
+}
+input {
+  width: 460px;
+  height: 60px;
+  margin-bottom: 8px;
+  margin-top: 20px;
+  background-color: #efefef;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+}
+input[type="text"] {
+  border: 1px solid #ffffff;
+  outline: none;
+}
+.login-btn {
+  margin-top: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  color: #000000;
+  border: 2px solid #0063be;
+  border-radius: 40px;
+  transition: background-color 0.3s, color 0.3s;
+  width: 150px;
+  min-height: 30px;
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+}
+.login-btn:hover {
+  background-color: #0063be;
+  color: #ffffff;
+}
+.close-btn {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: #0063be;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  top: 30px;
+  right: 30px;
+  position: absolute;
+}
+
+.close-btn::before,
+.close-btn::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background-color: white;
+}
+.close-btn:hover {
+  background-color: #0053a1;
+  color: #ffffff;
+}
+
+.close-btn::before {
+  transform: rotate(45deg);
+}
+
+.close-btn::after {
+  transform: rotate(-45deg);
+}
+.password {
+  margin-left: 330px;
+  color: #707070;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Overpass", sans-serif;
+  font-weight: 300;
+}
+.social-media--icons {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}
